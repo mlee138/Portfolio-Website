@@ -1,0 +1,12 @@
+#img-container {
+	position: sticky;
+	left:0;
+	top:0;
+	height: 100vh;
+	display: flex;
+}
+
+#img-container img {
+	max-width: 100%;
+	max-height: 100%;
+}

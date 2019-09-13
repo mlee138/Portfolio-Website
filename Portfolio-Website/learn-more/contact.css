@@ -1,0 +1,62 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+#content-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h2 {
+	border-bottom: 3px solid #96000e;
+}
+
+#body-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-grow: 2;
+}
+
+#body-container {
+	font-family: 'manjari', serif;
+	line-height: 30px;
+}
+
+.success-msg {
+	background-color: #b7dfb9;
+	border-left: 8px solid #009688;
+	padding: 5px 10px 5px 10px;
+	margin:10px;
+	display: none;
+}
+
+.error-msg {
+	background-color: #eacbce;
+	border-left: 8px solid #ff1d1d;
+	padding: 5px 10px 5px 10px;
+	margin:10px;
+	display: none;
+}
+
+fieldset {
+	border: none;
+}
+
+fieldset input {
+	width: 30vw;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+textarea {
+	width: 30vw;
+	height: 20vh;
+	padding:10px;
+}
+
+#submit-btn {
+	padding: 10px;
+	margin: 5px 0px 15px 15px;
+}
