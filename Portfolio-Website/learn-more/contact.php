@@ -54,12 +54,11 @@
 <div id="content-container">
 	<div id="img-container">
 		<img src="Background-images/Background-4.png">
-		<div id="back-btn-container">
-			<a href="../learn-more.php?new_session_variable=contact">&lt;&lt;</a>
-			<span>Back</span>
-		</div>
 	</div>
-
+	<div id="back-btn-container">
+		<a href="../learn-more.php?new_session_variable=contact">&lt;&lt;</a>
+		<span>Back</span>
+	</div>
 	<div id="body-wrapper">
 		<div id="body-container">
 			<h2>Get in touch!</h2>

@@ -6,7 +6,6 @@ body{
 #content-container {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 h2 {
@@ -16,6 +15,7 @@ h2 {
 #body-wrapper {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-grow: 2;
 }
 
