@@ -53,7 +53,7 @@
 <body>
 <div id="content-container">
 	<div id="img-container">
-		<img src="Background-images/Background-3.png">
+		<img src="Background-images/Background-4.png">
 		<div id="back-btn-container">
 			<a href="../learn-more.php?new_session_variable=contact">&lt;&lt;</a>
 			<span>Back</span>
