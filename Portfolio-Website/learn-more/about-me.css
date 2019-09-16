@@ -7,10 +7,10 @@ body {
 #content-container {
 	display: flex;
 	justify-content: space-between;
+	align-content: stretch;
 }
 
 #body-wrapper {
-	
 	line-height: 30px;
 	flex-grow: 2;
 }
@@ -20,7 +20,6 @@ body {
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
 	margin-top: 30px;
 	margin-bottom:30px;
 }
@@ -43,14 +42,19 @@ body {
 }
 
 .section-text {
-	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
 	padding:25px;
 	box-sizing: border-box;
 	font-size: 1.2em;
+	max-width: 600px;
 }
 
 section span {
 	color: #888;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
 .front-quote {
@@ -65,5 +69,5 @@ section span {
 
 #elli-quote {
 	position: relative;
-	left: 300px; 
+	left: 22vw; 
 }

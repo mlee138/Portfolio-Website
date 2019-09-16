@@ -11,7 +11,7 @@ body {
 
 #body-wrapper {
 	flex-direction: column;
-	flex-shrink: 33;
+	flex-grow: 2;
 }
 
 h3 {
