@@ -5,41 +5,6 @@ body {
 	font-weight: bold;
 }
 
-#back-btn-container {
-	position: absolute;
-	padding: 10px;
-	padding-left:15px;
-	width: 63px;
-}
-
-#back-btn-container:hover span{
-	transition-duration: 0.3s;
-	transition-timing-function: ease-out;
-	left: 30px;
-	opacity: 1;
-}
-
-#back-btn-container a {
-	position: absolute;
-	width: 65px;
-	font-size: 2.2em;
-	text-decoration: none;
-	color: #999;
-	cursor: pointer;
-	z-index: 10;
-}
-
-#back-btn-container span {
-	position: relative;
-	top:5px;
-	left:20px;
-	font-size:1.7em;
-	color: #999;
-	opacity: 0;
-	transition: 0.5s;
-	transition-timing-function: ease-in;
-}
-
 #img-wrapper{
 	text-align:center;
 }

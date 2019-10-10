@@ -14,10 +14,6 @@ if (!empty($_GET)) {
 	<link href="learn-more.css" rel="stylesheet">
 </head>
 <body>
-<div id="back-btn-container">
-	<a href="index.php">&lt;&lt;</a>
-	<span>Back</span>
-</div>
 <div id="img-wrapper">
 	<container id="img-box">
 		<a id="link1" href="learn-more/about-me.html"><img class="gray" src="Background-images/Background-1.png"></a>
