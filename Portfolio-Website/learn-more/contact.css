@@ -14,12 +14,11 @@ h2 {
 
 #body-wrapper {
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	flex-grow: 2;
 }
 
 #body-container {
+	margin: 0 auto;
 	font-family: 'manjari', serif;
 	line-height: 30px;
 }
