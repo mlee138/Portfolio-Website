@@ -9,6 +9,8 @@ if (!empty($_GET)) {
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Matt Lee That's Me</title>
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 	<link href="learn-more.css" rel="stylesheet">
